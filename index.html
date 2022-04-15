@@ -27,8 +27,8 @@
 
         <h2>  IP Address Tracker</h2>
       <section class="ser">
-      <input placeholder="Search for any IP address or domain" type="text">
-      <button type="submit"><img src="./images/icon-arrow.svg" alt="ser"></button>
+      <input id="sert" placeholder="Search for any IP address or domain" type="text">
+      <button onclick="fapi()" id="sumb" type="submit"><img src="./images/icon-arrow.svg" alt="ser"></button>
       </section>
     
 </header>
@@ -37,22 +37,22 @@
 
   <section class="ip  n">
     <p>IP Address</p>
-    <h1>192.223.631.423</h1>
+    <h1 id="current_ip">N/A</h1>
   </section>
 
   <section class="lc  n">
     <p>Location</p>
-    <h1>Broklan,ny 1001</h1>
+    <h1 id="current_town">N/A</h1>
   </section>
 
   <section class="tz  n">
     <p>Timezone</p>
-    <h1>UTC - 05:03</h1>
+    <h1 id="current_zone">UTC - N/A</h1>
   </section>
 
   <section class="is   n">
     <p>ISP</p>
-    <h1>Asta ponra</h1>
+    <h1 id="current_isp">N/A</h1>
   </section>
 
 </section>
